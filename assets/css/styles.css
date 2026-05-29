@@ -887,6 +887,27 @@ h3 {
     padding-inline: 24px;
   }
 
+  .section.alt .split {
+    gap: 24px;
+  }
+
+  .media-grid {
+    gap: 10px;
+    order: 2;
+  }
+
+  .media-grid img,
+  .media-grid img:first-child {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .section.alt .section-copy {
+    order: 1;
+  }
+
   .form-panel {
     padding: 18px;
   }
@@ -906,6 +927,21 @@ h3 {
 
   .event-grid {
     gap: 22px;
+  }
+
+  .event-card {
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .event-card img {
+    max-height: none;
+    object-fit: contain;
+    box-shadow: none;
+  }
+
+  .event-card strong {
+    font-size: 1.32rem;
   }
 
   .flyer-card {
