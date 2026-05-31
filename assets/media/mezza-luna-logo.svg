@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" role="img" aria-labelledby="title">
-  <title id="title">Mezza Luna logo</title>
-  <rect width="520" height="220" fill="#090807"/>
-  <path d="M150 62c-44 12-76 52-76 100 0 13 2 26 7 38C35 184 0 142 0 92 0 42 40 0 91 0c24 0 46 9 62 24-8-2-17-3-26-3-57 0-104 46-104 104 0 16 4 31 10 44 8-53 47-96 99-109 6-2 12 0 18 2Z" fill="#c5a15d"/>
-  <text x="192" y="98" fill="#f6efe4" font-family="Georgia, serif" font-size="54" letter-spacing="1">Mezza</text>
-  <text x="192" y="152" fill="#f6efe4" font-family="Georgia, serif" font-size="60" letter-spacing="1">Luna</text>
-  <text x="196" y="184" fill="#c8bbad" font-family="Arial, sans-serif" font-size="18" letter-spacing="7">ITALIAN RESTAURANT</text>
-</svg>

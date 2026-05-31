@@ -489,10 +489,10 @@ h3 {
   text-transform: uppercase;
 }
 
-.menu-frame {
-  width: 100%;
-  min-height: 72vh;
-  background: var(--paper);
+.menu-download {
+  max-width: 780px;
+  padding: clamp(24px, 5vw, 48px);
+  background: rgba(255, 247, 235, 0.035);
   border: 1px solid var(--line);
 }
 
