@@ -37,10 +37,11 @@ https://www.opentable.com/r/mezza-luna-furfaro-italian-restaurant-reservations-m
 
 ## Hero Video
 
-The provided hero video is copied into:
+The site uses the optimized hero video files:
 
 ```text
-assets/media/hero-video.mov
+assets/media/hero-video-mobile.mp4
+assets/media/hero-video-fallback.mp4
 ```
 
 ## Menu PDF

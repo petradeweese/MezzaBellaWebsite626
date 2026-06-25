@@ -13,54 +13,247 @@
   <body>
     <header class="site-header">
       <a class="brand" href="index.html"><img class="brand-logo" src="assets/media/mezza-luna-logo-black.png" alt="Mezza Luna Furfaro Italian Restaurant"></a>
-      <nav class="site-nav"><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="https://www.opentable.com/r/mezza-luna-furfaro-italian-restaurant-reservations-marietta?restref=1507207&lang=en-US&ot_source=Restaurant%20website" target="_blank" rel="noopener">Reservations</a><a href="experiences.html">Experiences</a><a href="catering.html">Catering</a><a href="social-club.html">Social Club</a><a href="contact.html">Contact</a></nav>
+      <nav class="site-nav"><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="specials.html">Specials</a><a href="https://www.opentable.com/r/mezza-luna-furfaro-italian-restaurant-reservations-marietta?restref=1507207&lang=en-US&ot_source=Restaurant%20website" target="_blank" rel="noopener">Reservations</a><a href="experiences.html">Experiences</a><a href="catering.html">Catering</a><a href="social-club.html">Social Club</a><a href="contact.html">Contact</a></nav>
       <div class="header-actions"><a class="btn utility-btn" href="https://mezza-luna-marietta.cloveronline.com/" target="_blank" rel="noopener">Order Takeout Online</a><button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span></button></div>
     </header>
     <main>
-      <section class="page-hero" style="--page-image: url('/assets/media/selected/pasta-table.jpg')">
+      <section class="page-hero menu-hero" style="--page-image: url('/assets/media/selected/pasta-table.jpg')">
         <div class="section-inner">
           <div><p class="eyebrow">Menu</p><h1>Mezza Luna Pasta & Seafood.</h1></div>
-          <p class="lead">Italian comfort, seafood favorites, cocktails, wine, and the dishes that make the dining room feel familiar.</p>
-        </div>
-      </section>
-      <section class="section">
-        <div class="section-inner split">
-          <div class="section-copy">
-            <p class="kicker">Current Menu</p>
-            <h2>Simple to browse. Easy to order.</h2>
-            <p class="body-copy">Open the full Mezza Luna menu PDF for dine-in browsing, or use Clover for takeout ordering.</p>
-            <div class="page-actions">
-              <a class="btn" href="assets/menu/menumezza.pdf" target="_blank" rel="noopener">Open Menu PDF</a>
-              <a class="btn secondary" href="https://mezza-luna-marietta.cloveronline.com/" target="_blank" rel="noopener">Order Takeout</a>
-            </div>
-          </div>
-          <div class="media-grid">
-            <img src="assets/media/selected/pasta-table.jpg" alt="Mezza Luna pasta dish">
-            <img src="assets/media/selected/seafood-plating.jpg" alt="Seafood plating">
-            <img src="assets/media/selected/bar-wine.jpg" alt="Wine at the bar">
+          <p class="lead">Browse the current menu below, or open the original PDF for the full restaurant menu.</p>
+          <div class="page-actions">
+            <a class="btn" href="assets/menu/menumezza.pdf" target="_blank" rel="noopener">Open Menu PDF</a>
+            <a class="btn secondary" href="https://mezza-luna-marietta.cloveronline.com/" target="_blank" rel="noopener">Order Takeout</a>
           </div>
         </div>
       </section>
-      <section class="section alt">
+      <section class="menu-overview">
         <div class="section-inner">
+          <nav class="menu-tabs" aria-label="Menu sections">
+            <a href="#appetizers">Appetizers</a>
+            <a href="#soups">Soups</a>
+            <a href="#salads">Salads</a>
+            <a href="#pasta">Pasta</a>
+            <a href="#entrees">Entrees</a>
+            <a href="#sides">Sides</a>
+            <a href="#desserts">Desserts</a>
+            <a href="#cocktails">Cocktails</a>
+            <a href="#wine-beer">Wine & Beer</a>
+            <a href="#pdf-menu">PDF Menu</a>
+          </nav>
+        </div>
+      </section>
+      <section class="section menu-section" id="appetizers">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Current Menu</p>
+            <h2>Appetizers</h2>
+            <p class="body-copy">Opening plates from the current Mezza Luna menu.</p>
+          </aside>
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>2 Crab Cakes <span>new</span></h3><p>Blue crab, caramelized onions, carrots, celery, bell peppers, mozzarella cheese, Parmigiano Reggiano, gluten-free panko breadcrumbs, hollandaise sauce.</p></div><strong>$25</strong></article>
+            <article class="menu-item"><div><h3>Carpaccio di Manzo</h3><p>Beef tenderloin carpaccio, Parmigiano Reggiano, capers, lemon, olive oil.</p></div><strong>$22</strong></article>
+            <article class="menu-item"><div><h3>Bruschetta</h3><p>Diced fresh tomatoes, basil, garlic, extra virgin olive oil on toasted ciabatta bread.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Calamari Fritti</h3><p>Lightly fried calamari served with pomodoro sauce.</p></div><strong>$20</strong></article>
+            <article class="menu-item"><div><h3>Mussels Alla Tarantina</h3><p>Choice of white wine garlic sauce with cherry tomatoes or marinara sauce.</p></div><strong>$22</strong></article>
+            <article class="menu-item"><div><h3>Caprese Salad</h3><p>Fresh mozzarella, tomatoes, basil, aged balsamic.</p></div><strong>$18</strong></article>
+            <article class="menu-item"><div><h3>Antipasto Romano</h3><p>Cured Italian meats, asiago cheese, marinated artichokes, olives.</p></div><strong><span>$25</span><small>2 ppl</small><span>$35</span><small>4 ppl</small></strong></article>
+            <article class="menu-item"><div><h3>Focaccia Bread</h3></div><strong>$5</strong></article>
+            <article class="menu-item"><div><h3>Gluten-Free Bread</h3></div><strong>$5</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt menu-section" id="soups">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Current Menu</p>
+            <h2>Soups</h2>
+            <p class="body-copy">Comforting bowls before the table fills.</p>
+          </aside>
+          <div class="menu-list compact">
+            <article class="menu-item"><div><h3>Tomato Bisque</h3><p>Tomato bisque with fresh basil.</p></div><strong>$14</strong></article>
+            <article class="menu-item"><div><h3>Zuppa del Giorno</h3><p>Soup of the day.</p></div><strong>Market</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section menu-section" id="salads">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Current Menu</p>
+            <h2>Salads</h2>
+            <p class="body-copy">Add chicken $11, shrimp $12, or salmon $15.</p>
+          </aside>
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>Bietole e Arugula</h3><p>Roasted beets, arugula, pistachios, gorgonzola, lemon olive oil.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Arugula Salad</h3><p>Arugula, dried cranberries, toasted walnuts, goat cheese, house balsamic vinaigrette.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Caesar Salad</h3><p>Romaine lettuce, croutons, shaved Parmigiano cheese. Add anchovies $4.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>House Salad</h3><p>Spring mix, cucumbers, tomatoes, onions, honey mustard vinaigrette.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Greek Salad</h3><p>Spring mix, banana peppers, sundried tomatoes, artichokes, feta cheese, honey vinaigrette.</p></div><strong>$18</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt menu-section" id="pasta">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Current Menu</p>
+            <h2>Pasta</h2>
+            <p class="body-copy">Homemade pastas, risotto, seafood, and classic sauces. Gluten-free pasta available +$5.</p>
+          </aside>
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>Tortellini Alla Romagnola</h3><p>Veal, lamb and pork stuffed tortellini in sage cream butter sauce with truffle oil.</p></div><strong>$32</strong></article>
+            <article class="menu-item"><div><h3>Paccheri Duck Ragu</h3><p>Slow-braised duck ragu with tomato and red wine sauce over paccheri pasta.</p></div><strong>$35</strong></article>
+            <article class="menu-item"><div><h3>Risotto al Tartufo</h3><p>Porcini mushrooms, shaved truffle, creamy truffle risotto.</p></div><strong>$39</strong></article>
+            <article class="menu-item"><div><h3>Butter Squash Ravioli</h3><p>Butternut squash and Parmigiano cheese ravioli with sage butter sauce.</p></div><strong>$32</strong></article>
+            <article class="menu-item"><div><h3>Pappardelle Bolognese</h3><p>Homemade pappardelle with traditional meat sauce.</p></div><strong>$28</strong></article>
+            <article class="menu-item"><div><h3>Gnocchi al Pesto with Blue Crab</h3><p>Traditional pesto sauce with shredded blue crab.</p></div><strong>$39</strong></article>
+            <article class="menu-item"><div><h3>Fettuccine Alla Panna</h3><p>Classic Alfredo sauce. Add chicken +$11 or shrimp +$13.</p></div><strong>$26</strong></article>
+            <article class="menu-item"><div><h3>Lasagna</h3><p>Homemade lasagna sheets, b&eacute;chamel, bolognese, and pecorino cheese.</p></div><strong>$27</strong></article>
+            <article class="menu-item"><div><h3>Orecchiette Pugliese</h3><p>White wine garlic sauce, cherry tomatoes, pork sausage, and broccoli.</p></div><strong>$29</strong></article>
+            <article class="menu-item"><div><h3>Pasta Alla Amatriciana</h3><p>Imported Italian guanciale, red sauce, and pecorino cheese.</p></div><strong>$29</strong></article>
+            <article class="menu-item"><div><h3>Linguini Clams</h3><p>Choice of white wine sauce or marinara sauce with little neck clams.</p></div><strong>$32</strong></article>
+            <article class="menu-item"><div><h3>Tagliatelle Black Squid Ink Cartoccio</h3><p>Homemade squid ink pasta with marinara sauce, mussels, shrimp, calamari, and little neck clams.</p></div><strong>$35</strong></article>
+            <article class="menu-item"><div><h3>Fettuccine Alla Pescatora</h3><p>Homemade pasta with mussels, shrimp, calamari, and little neck clams.</p></div><strong>$35</strong></article>
+            <article class="menu-item"><div><h3>Risotto Alla Pescatora</h3><p>Risotto with mussels, shrimp, calamari, and little neck clams.</p></div><strong>$35</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section menu-section" id="entrees">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Current Menu</p>
+            <h2>Entrees</h2>
+            <p class="body-copy">Seafood, veal, chicken, and Italian classics served with seasonal sides.</p>
+          </aside>
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>Veal Chop Gorgonzola</h3><p>Pan-seared veal chop finished with mushrooms and gorgonzola cheese.</p></div><strong>$60</strong></article>
+            <article class="menu-item"><div><h3>Salmon Piccata</h3><p>Lemon butter white wine sauce, capers, artichokes, cherry tomatoes, seasonal vegetables, and roasted fingerling potatoes.</p></div><strong>$39</strong></article>
+            <article class="menu-item"><div><h3>Chicken Piccata</h3><p>Lemon butter white wine sauce, capers, artichokes, cherry tomatoes, seasonal vegetables, and roasted fingerling potatoes. Veal version $30.</p></div><strong>$27</strong></article>
+            <article class="menu-item"><div><h3>Branzino</h3><p>Pan-seared Mediterranean sea bass with lemon butter sauce, cherry tomatoes, capers, seasonal vegetables, and roasted fingerling potatoes.</p></div><strong>$39</strong></article>
+            <article class="menu-item"><div><h3>Chicken Marsala</h3><p>Marsala wine sauce, porcini mushrooms, seasonal vegetables, and roasted fingerling potatoes. Veal version $30.</p></div><strong>$27</strong></article>
+            <article class="menu-item"><div><h3>Eggplant Alla Parmigiana</h3><p>Served over spaghetti with pomodoro sauce. Chicken version $27. Veal version $30.</p></div><strong>$25</strong></article>
+            <article class="menu-item"><div><h3>Chicken Saltimbocca Alla Romana</h3><p>Prosciutto, sage butter sauce, spinach, seasonal vegetables, and roasted fingerling potatoes. Veal version $30.</p></div><strong>$27</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt menu-section" id="sides">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Additions</p>
+            <h2>Sides</h2>
+            <p class="body-copy">Add a side or extra protein to complete the table.</p>
+          </aside>
+          <div class="menu-list compact">
+            <article class="menu-item"><div><h3>Pan Seared Chicken Breast</h3></div><strong>$12</strong></article>
+            <article class="menu-item"><div><h3>Sauteed Shrimp</h3></div><strong>$14</strong></article>
+            <article class="menu-item"><div><h3>Meatball</h3></div><strong><span>$4</span><small>single</small><span>$10</span><small>three</small></strong></article>
+            <article class="menu-item"><div><h3>Sauteed Spinach</h3></div><strong>$9</strong></article>
+            <article class="menu-item"><div><h3>Side Spaghetti Aglio e Olio</h3></div><strong>$13</strong></article>
+            <article class="menu-item"><div><h3>Sauteed Vegetables</h3></div><strong>$12</strong></article>
+            <article class="menu-item"><div><h3>Extra Focaccia Bread</h3></div><strong>$5</strong></article>
+            <article class="menu-item"><div><h3>Side Marinara</h3></div><strong>$5</strong></article>
+            <article class="menu-item"><div><h3>Side Alfredo</h3></div><strong>$7</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt menu-section" id="desserts">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">After Dinner</p>
+            <h2>Desserts</h2>
+            <p class="body-copy">Classic Italian sweets, gelato, coffee, and dessert cocktails.</p>
+          </aside>
+          <div class="menu-list compact">
+            <article class="menu-item"><div><h3>Tiramisu</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Chocolate Mousse Cake</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Limoncello Mascarpone Layer Cake</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Cr&egrave;me Br&ucirc;l&eacute;e Cheesecake</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Cannoli al Pistachio</h3></div><strong>$10</strong></article>
+            <article class="menu-item"><div><h3>Gluten-Free Cake</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Chocolate Profiterol</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Ricotta &amp; Pistachio Cake</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Limoncello Sorbet</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Gelato</h3><p>Pistachio, strawberry, chocolate, vanilla, or hazelnut.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Porto</h3></div><strong>$18</strong></article>
+            <article class="menu-item"><div><h3>Tiramisu Martini</h3><p>Vanilla vodka, Kahlua, horchata cream, creme de cacao, cocoa powder.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Espresso Martini</h3><p>Fresh espresso, Bailey's, vanilla vodka.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Peach Cobbler</h3><p>Crown Royal Peach, peach pur&eacute;e, RumChata, cinnamon sugar rim.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Chocolate Martini</h3><p>Van Gogh Dutch Chocolate Vodka, creme de cacao, Bailey's.</p></div><strong>$15</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section menu-section" id="cocktails">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Bar</p>
+            <h2>Cocktails</h2>
+            <p class="body-copy">All cocktails $15 unless noted.</p>
+          </aside>
+          <div class="menu-list">
+            <article class="menu-item"><div><h3>Basil Martini</h3><p>Vodka, house-made limoncello, and fresh muddled basil.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Hibiscus Old Fashioned</h3><p>Whistle Pig rye, hibiscus simple syrup, toasted almond bitters, orange bitters.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Smoked Peach Old Fashioned</h3><p>Bourbon, black walnut bitters, peach nectar, applewood smoke.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Aperol Spritz</h3><p>Aperol liqueur and prosecco.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Negroni</h3><p>Bombay dry gin, Cinzano sweet red vermouth, and Campari.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Peach Orange Blossom Martini</h3><p>Ketel One Peach Orange Blossom vodka, orange, peach pur&eacute;e.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Limoncello Martini</h3><p>House-made limoncello, Tito's vodka, lemon juice, sugar rim.</p></div><strong>$20</strong></article>
+            <article class="menu-item"><div><h3>Paolo Maldini</h3><p>Luna Azul tequila, Aperol, lime juice, agave, grapefruit soda.</p></div><strong>$18</strong></article>
+            <article class="menu-item"><div><h3>Pistachio Martini</h3><p>Pistachio liqueur, Van Gogh chocolate vodka, vanilla vodka, Cointreau.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Pomegranate Cosmo</h3><p>Tito's vodka, lime juice, Cointreau, Pama.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Italian Margarita</h3><p>Luna Azul Tequila, Amaretto Disaronno, lime juice, and agave.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Amalfi Breeze</h3><p>Malfy Blood Orange Gin, 229 Gin, orange juice, and lime juice.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Cucumertini</h3><p>Ketel One cucumber mint vodka or gin, elderflower liqueur, lemon juice.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Mojito Italiano</h3><p>Don Q rum, Fiorente elderflower liqueur, mint, lime, prosecco.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Grapefruit Lemon Martini</h3><p>Ketel One Grapefruit & Rose vodka, lemon, and grapefruit juice.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Bourboncello Martini</h3><p>House-made limoncello, bourbon, lemon, mint.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Sangria Italiana</h3><p>Italian sweet red or white wine blend with Cinzano sweet vermouth.</p></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Gin Mule</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Moscow Mule</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Kentucky Mule</h3></div><strong>$15</strong></article>
+            <article class="menu-item"><div><h3>Mexican Mule</h3></div><strong>$15</strong></article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt menu-section" id="wine-beer">
+        <div class="section-inner menu-layout">
+          <aside class="menu-aside">
+            <p class="kicker">Beverage</p>
+            <h2>Wine & Beer</h2>
+            <p class="body-copy">A compact view of wine, beer, coffee, tea, and non-alcoholic options.</p>
+          </aside>
+          <div class="menu-list beverage-list">
+            <article class="beverage-group"><h3>Sparkling</h3><div class="beverage-row"><span>Zardetto Prosecco Brut</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>De Stefani Prosecco</span><strong>Bottle $75</strong></div><div class="beverage-row"><span>Berlucchi '61 Ros&eacute;</span><strong>Bottle $90</strong></div><div class="beverage-row"><span>Casteggio Moscato</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Ferrari Brut Champagne</span><strong>Bottle $85</strong></div></article>
+            <article class="beverage-group"><h3>White Wines</h3><div class="beverage-row"><span>La Fiera Pinot Grigio</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Zenato Pinot Grigio</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Villa Sparina Gavi di Gavi</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Gentrum Riesling</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Zenato Lugana</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Vermentino Giunco</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Terra Alpina Chardonnay</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Inama Soave Classico</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Etna Bianco DOC</span><strong>Glass $16 | Bottle $65</strong></div></article>
+            <article class="beverage-group"><h3>Red Wines</h3><div class="beverage-row"><span>Bottega Vinaia Pinot Noir</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Tommasi Valpolicella</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Di Majo Sangiovese</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Velenosi Montepulciano</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Polvaro Nero Blend</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Villa Sparina Barbera d'Asti</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Lamole di Lamole Chianti Classico</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Cultusboni Chianti</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Riviera Cannonau</span><strong>Glass $15 | Bottle $60</strong></div><div class="beverage-row"><span>Catena Cabernet</span><strong>Glass $16 | Bottle $65</strong></div><div class="beverage-row"><span>Borgogno DOC Dolcetto</span><strong>Glass $16 | Bottle $65</strong></div></article>
+            <article class="beverage-group"><h3>Reserve Wines</h3><div class="beverage-row"><span>Antinori Il Bruciato</span><strong>Bottle $70</strong></div><div class="beverage-row"><span>Zenato Alanera Rosso</span><strong>Bottle $68</strong></div><div class="beverage-row"><span>Albe G.D. Vajra Barolo</span><strong>Bottle $82</strong></div><div class="beverage-row"><span>Peppoli Chianti Classico Antinori</span><strong>Bottle $80</strong></div><div class="beverage-row"><span>Ser Lapo Chianti Classico Riserva</span><strong>Bottle $75</strong></div><div class="beverage-row"><span>Zenato Amarone della Valpolicella</span><strong>Bottle $155</strong></div><div class="beverage-row"><span>Zenato Superiore Ripassa</span><strong>Bottle $135</strong></div><div class="beverage-row"><span>Zenato Valpolicella Superiore 2017</span><strong>Bottle $100</strong></div><div class="beverage-row"><span>Capanna Brunello di Montalcino</span><strong>Bottle $165</strong></div><div class="beverage-row"><span>Ventisei Montepulciano</span><strong>Bottle $85</strong></div><div class="beverage-row"><span>Il Cabreo Super Tuscan</span><strong>Bottle $130</strong></div><div class="beverage-row"><span>Papale Primitivo</span><strong>Bottle $80</strong></div><div class="beverage-row"><span>Bramito della Sala Chardonnay Antinori</span><strong>Bottle $75</strong></div><div class="beverage-row"><span>Castelgiocondo Brunello</span><strong>Bottle $210</strong></div></article>
+            <article class="beverage-group"><h3>Beer</h3><div class="beverage-row"><span>Blue Moon</span></div><div class="beverage-row"><span>New Realm Hazy Like a Fox</span></div><div class="beverage-row"><span>Peroni 0.0</span></div><div class="beverage-row"><span>Miller Lite</span></div><div class="beverage-row"><span>Stella Artois</span></div><div class="beverage-row"><span>Scofflaw IPA</span></div><div class="beverage-row"><span>Heineken 0.0</span></div><div class="beverage-row"><span>Nora</span></div><div class="beverage-row"><span>Nazionale</span></div></article>
+            <article class="beverage-group"><h3>Non-Alcoholic Beverages</h3><div class="beverage-row"><span>Coca-Cola</span></div><div class="beverage-row"><span>Sprite</span></div><div class="beverage-row"><span>Fanta</span></div><div class="beverage-row"><span>Minute Maid</span></div><div class="beverage-row"><span>Diet Coke</span></div><div class="beverage-row"><span>Sweet Tea</span></div><div class="beverage-row"><span>Unsweet Tea</span></div><div class="beverage-row"><span>Acqua Panna</span></div><div class="beverage-row"><span>San Pellegrino</span></div></article>
+            <article class="beverage-group"><h3>Coffee</h3><div class="beverage-row"><span>Espresso</span><strong>$4</strong></div><div class="beverage-row"><span>Double Espresso</span><strong>$7.50</strong></div><div class="beverage-row"><span>Americano</span><strong>$3.50</strong></div><div class="beverage-row"><span>Cappuccino</span><strong>$4.50</strong></div><div class="beverage-row"><span>Cafe Latte</span><strong>$4.50</strong></div><div class="beverage-row"><span>Decaf Coffee</span><strong>$4.50</strong></div></article>
+            <article class="beverage-group"><h3>Tea</h3><div class="beverage-row"><span>Organic Lavender Tea</span><strong>$7</strong></div><div class="beverage-row"><span>Earl Grey Tea</span><strong>$7</strong></div><div class="beverage-row"><span>Organic Jasmine Green Tea</span><strong>$7</strong></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt" id="pdf-menu">
+        <div class="section-inner menu-pdf-layout">
           <div class="menu-download">
             <p class="kicker">Full Menu PDF</p>
-            <h2>Open the menu when you are ready.</h2>
-            <p class="body-copy">The full menu opens in a separate tab for easier viewing on mobile and desktop.</p>
+            <h2>Prefer the original menu?</h2>
+            <p class="body-copy">Open the restaurant PDF in a separate tab for the official menu file.</p>
             <div class="page-actions">
               <a class="btn" href="assets/menu/menumezza.pdf" target="_blank" rel="noopener">Open Menu PDF</a>
+              <a class="btn secondary" href="gallery.html">View Food Gallery</a>
             </div>
           </div>
+          <img class="menu-pdf-photo" src="assets/media/selected/bar-wine.jpg" alt="Wine at the Mezza Luna bar">
         </div>
       </section>
     </main>
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">Mezza Luna Pasta & Seafood</div>
-        <nav class="footer-links"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="https://www.opentable.com/r/mezza-luna-furfaro-italian-restaurant-reservations-marietta?restref=1507207&lang=en-US&ot_source=Restaurant%20website" target="_blank" rel="noopener">OpenTable</a><a href="https://mezza-luna-marietta.cloveronline.com/" target="_blank" rel="noopener">Clover</a><a href="privacy-policy/">Privacy Policy</a><a href="terms-and-conditions/">Terms & Conditions</a></nav>
+        <nav class="footer-links"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="specials.html">Specials</a><a href="https://www.opentable.com/r/mezza-luna-furfaro-italian-restaurant-reservations-marietta?restref=1507207&lang=en-US&ot_source=Restaurant%20website" target="_blank" rel="noopener">OpenTable</a><a href="https://mezza-luna-marietta.cloveronline.com/" target="_blank" rel="noopener">Clover</a><a href="privacy-policy/">Privacy Policy</a><a href="terms-and-conditions/">Terms & Conditions</a></nav>
         <p class="fine-print">2100 Roswell Rd #2198, Marietta, GA 30062 · 678-214-5856.</p>
       </div>
     </footer>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=sticky-tabs"></script>
   </body>
 </html>
